@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="474684" started-at="2016-12-08T15:55:11Z" finished-at="2016-12-08T16:03:05Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="149246" started-at="2016-12-08T15:55:11Z" finished-at="2016-12-08T15:57:40Z">
+      <class name="com.epam.gomel.tat.test.Tests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3512" started-at="2016-12-08T18:55:11Z" finished-at="2016-12-08T18:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="loginTest" duration-ms="11112" started-at="2016-12-08T18:55:14Z" finished-at="2016-12-08T18:55:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="832" started-at="2016-12-08T18:55:25Z" finished-at="2016-12-08T18:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3084" started-at="2016-12-08T18:55:26Z" finished-at="2016-12-08T18:55:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="wrongLoginTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="wrongLoginTest" duration-ms="4143" started-at="2016-12-08T18:55:29Z" depends-on-methods="com.epam.gomel.tat.test.Tests.loginTest" finished-at="2016-12-08T18:55:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="738" started-at="2016-12-08T18:55:33Z" finished-at="2016-12-08T18:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3072" started-at="2016-12-08T18:55:34Z" finished-at="2016-12-08T18:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestSendFolder()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="loginTestSendFolder" duration-ms="13725" started-at="2016-12-08T18:55:37Z" depends-on-methods="com.epam.gomel.tat.test.Tests.wrongLoginTest" finished-at="2016-12-08T18:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestSendFolder -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="794" started-at="2016-12-08T18:55:51Z" finished-at="2016-12-08T18:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3065" started-at="2016-12-08T18:55:52Z" finished-at="2016-12-08T18:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestInboxFolder()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="loginTestInboxFolder" duration-ms="9994" started-at="2016-12-08T18:55:55Z" depends-on-methods="com.epam.gomel.tat.test.Tests.loginTestSendFolder" finished-at="2016-12-08T18:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestInboxFolder -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="764" started-at="2016-12-08T18:56:05Z" finished-at="2016-12-08T18:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3067" started-at="2016-12-08T18:56:05Z" finished-at="2016-12-08T18:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sendEmailWithoutProperlyFilledAddressTest(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="sendEmailWithoutProperlyFilledAddressTest" duration-ms="10616" started-at="2016-12-08T18:56:09Z" depends-on-methods="com.epam.gomel.tat.test.Tests.loginTestInboxFolder" finished-at="2016-12-08T18:56:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailWithoutProperlyFilledAddressTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="771" started-at="2016-12-08T18:56:19Z" finished-at="2016-12-08T18:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3099" started-at="2016-12-08T18:56:20Z" finished-at="2016-12-08T18:56:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sendEmailWithoutSubjectAndBodyTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="sendEmailWithoutSubjectAndBodyTest" duration-ms="13069" started-at="2016-12-08T18:56:23Z" depends-on-methods="com.epam.gomel.tat.test.Tests.sendEmailWithoutProperlyFilledAddressTest" finished-at="2016-12-08T18:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailWithoutSubjectAndBodyTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="765" started-at="2016-12-08T18:56:36Z" finished-at="2016-12-08T18:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3060" started-at="2016-12-08T18:56:37Z" finished-at="2016-12-08T18:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="emptyMessageIndexFolderTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="emptyMessageIndexFolderTest" duration-ms="10612" started-at="2016-12-08T18:56:40Z" depends-on-methods="com.epam.gomel.tat.test.Tests.sendEmailWithoutSubjectAndBodyTest" finished-at="2016-12-08T18:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyMessageIndexFolderTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="738" started-at="2016-12-08T18:56:51Z" finished-at="2016-12-08T18:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3024" started-at="2016-12-08T18:56:51Z" finished-at="2016-12-08T18:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createDraftMailTest(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="createDraftMailTest" duration-ms="15135" started-at="2016-12-08T18:56:54Z" depends-on-methods="com.epam.gomel.tat.test.Tests.emptyMessageIndexFolderTest" finished-at="2016-12-08T18:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDraftMailTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="784" started-at="2016-12-08T18:57:09Z" finished-at="2016-12-08T18:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="setup" is-config="true" duration-ms="3050" started-at="2016-12-08T18:57:10Z" finished-at="2016-12-08T18:57:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteDraftMailTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="deleteDraftMailTest" duration-ms="25776" started-at="2016-12-08T18:57:13Z" depends-on-methods="com.epam.gomel.tat.test.Tests.createDraftMailTest" finished-at="2016-12-08T18:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDraftMailTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@5f150435]" name="killDriver" is-config="true" duration-ms="834" started-at="2016-12-08T18:57:39Z" finished-at="2016-12-08T18:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- com.epam.gomel.tat.test.Tests -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="325418" started-at="2016-12-08T15:57:40Z" finished-at="2016-12-08T16:03:05Z">
+      <class name="com.epam.gomel.tat.test.Tests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4457" started-at="2016-12-08T18:57:40Z" finished-at="2016-12-08T18:57:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="loginTest" duration-ms="33759" started-at="2016-12-08T18:57:44Z" finished-at="2016-12-08T18:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="655" started-at="2016-12-08T18:58:18Z" finished-at="2016-12-08T18:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4106" started-at="2016-12-08T18:58:19Z" finished-at="2016-12-08T18:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="wrongLoginTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="wrongLoginTest" duration-ms="4187" started-at="2016-12-08T18:58:23Z" depends-on-methods="com.epam.gomel.tat.test.Tests.loginTest" finished-at="2016-12-08T18:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongLoginTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="459" started-at="2016-12-08T18:58:27Z" finished-at="2016-12-08T18:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4217" started-at="2016-12-08T18:58:27Z" finished-at="2016-12-08T18:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestSendFolder()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="loginTestSendFolder" duration-ms="24639" started-at="2016-12-08T18:58:32Z" depends-on-methods="com.epam.gomel.tat.test.Tests.wrongLoginTest" finished-at="2016-12-08T18:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestSendFolder -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="643" started-at="2016-12-08T18:58:56Z" finished-at="2016-12-08T18:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4165" started-at="2016-12-08T18:58:57Z" finished-at="2016-12-08T18:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestInboxFolder()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="loginTestInboxFolder" duration-ms="24707" started-at="2016-12-08T18:59:01Z" depends-on-methods="com.epam.gomel.tat.test.Tests.loginTestSendFolder" finished-at="2016-12-08T18:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestInboxFolder -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="629" started-at="2016-12-08T18:59:26Z" finished-at="2016-12-08T18:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4290" started-at="2016-12-08T18:59:26Z" finished-at="2016-12-08T18:59:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sendEmailWithoutProperlyFilledAddressTest(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="sendEmailWithoutProperlyFilledAddressTest" duration-ms="27258" started-at="2016-12-08T18:59:31Z" depends-on-methods="com.epam.gomel.tat.test.Tests.loginTestInboxFolder" finished-at="2016-12-08T18:59:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailWithoutProperlyFilledAddressTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="663" started-at="2016-12-08T18:59:58Z" finished-at="2016-12-08T18:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4216" started-at="2016-12-08T18:59:59Z" finished-at="2016-12-08T19:00:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sendEmailWithoutSubjectAndBodyTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="sendEmailWithoutSubjectAndBodyTest" duration-ms="42357" started-at="2016-12-08T19:00:03Z" depends-on-methods="com.epam.gomel.tat.test.Tests.sendEmailWithoutProperlyFilledAddressTest" finished-at="2016-12-08T19:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailWithoutSubjectAndBodyTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="721" started-at="2016-12-08T19:00:45Z" finished-at="2016-12-08T19:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4287" started-at="2016-12-08T19:00:46Z" finished-at="2016-12-08T19:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="emptyMessageIndexFolderTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="emptyMessageIndexFolderTest" duration-ms="24654" started-at="2016-12-08T19:00:50Z" depends-on-methods="com.epam.gomel.tat.test.Tests.sendEmailWithoutSubjectAndBodyTest" finished-at="2016-12-08T19:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyMessageIndexFolderTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="639" started-at="2016-12-08T19:01:15Z" finished-at="2016-12-08T19:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4129" started-at="2016-12-08T19:01:16Z" finished-at="2016-12-08T19:01:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createDraftMailTest(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="createDraftMailTest" duration-ms="35343" started-at="2016-12-08T19:01:20Z" depends-on-methods="com.epam.gomel.tat.test.Tests.emptyMessageIndexFolderTest" finished-at="2016-12-08T19:01:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDraftMailTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="725" started-at="2016-12-08T19:01:55Z" finished-at="2016-12-08T19:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="setup" is-config="true" duration-ms="4161" started-at="2016-12-08T19:01:56Z" finished-at="2016-12-08T19:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteDraftMailTest()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="deleteDraftMailTest" duration-ms="64636" started-at="2016-12-08T19:02:00Z" depends-on-methods="com.epam.gomel.tat.test.Tests.createDraftMailTest" finished-at="2016-12-08T19:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDraftMailTest -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.epam.gomel.tat.test.Tests@7bb11784]" name="killDriver" is-config="true" duration-ms="713" started-at="2016-12-08T19:03:05Z" finished-at="2016-12-08T19:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- com.epam.gomel.tat.test.Tests -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
